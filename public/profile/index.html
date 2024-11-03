@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../build/tailwind.css" rel="stylesheet">
+    <title>Profile</title>
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+    <header class="bg-blue-500 p-4 text-white text-center font-semibold">
+        <h1>User Profile</h1>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-4">
+        <!-- Profile Section -->
+        <div class="bg-white p-6 rounded shadow text-center mb-6">
+            <img src="https://via.placeholder.com/100" alt="Profile Image" class="w-24 h-24 mx-auto rounded-full mb-4">
+            <h2 class="text-2xl font-semibold">Username</h2>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded mt-4">Follow</button>
+        </div>
+
+        <!-- Followers and Following -->
+        <div class="flex justify-around mb-6">
+            <div class="text-center">
+                <h3 class="text-xl font-semibold">Followers</h3>
+                <p class="text-gray-600">123</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-xl font-semibold">Following</h3>
+                <p class="text-gray-600">89</p>
+            </div>
+        </div>
+
+        <!-- User's Posts -->
+        <section>
+            <h2 class="text-xl font-semibold mb-4">User's Posts</h2>
+            <ul>
+                <li class="bg-white p-4 mb-4 rounded shadow">
+                    <h3 class="font-semibold">Post Title 1</h3>
+                    <p class="text-gray-600">A brief description of the user's post. This provides an overview of the
+                        post content.</p>
+                </li>
+                <li class="bg-white p-4 mb-4 rounded shadow">
+                    <h3 class="font-semibold">Post Title 2</h3>
+                    <p class="text-gray-600">Another description of a post by the user.</p>
+                </li>
+            </ul>
+            <!-- Additional posts can follow the same structure -->
+        </section>
+    </main>
+</body>
+
+</html>
